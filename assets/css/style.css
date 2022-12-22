@@ -173,6 +173,8 @@ html {
     margin-top:46px;
     padding-top: 50%;
     background: url('../img/slider/chicago.jpg') top center / cover no-repeat ;
+    /* do position là relative (tương đối)
+    nên url chỉ lấy vị trí theo tên miền mà ko lấy đầy đủ */
     position: relative;
 }
 
