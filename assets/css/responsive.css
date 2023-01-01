@@ -1,0 +1,111 @@
+/* pc */
+@media (min-width : 64em) {
+    
+}
+
+/* Tablet & Mobile */
+@media (max-width : 63.9375em) {
+    .btn {
+        padding: 16px 22px !important;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 48px;
+    }
+    #footer .social-list i {
+        margin: 0 10px;
+    }
+    .copy-right a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+
+    #nav .subnav a {
+        padding: 9px 14px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+}
+
+
+/* Tablet */
+@media (min-width : 46.25em) and (max-width : 63.9375em) {
+    
+}
+
+/* mobile */
+@media (max-width : 46.1875em) {
+
+    /* dung chung tren mobile */
+
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    /* ///////////////// */
+
+    #nav {
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 9px 84px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-buton {
+        display: block;
+    }
+
+    #header .search-buton {
+        display: none;
+    }
+    
+    #content .member-img {
+        margin-bottom: 15px;
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
+
+
+}
